@@ -1,0 +1,243 @@
+.ntop_left h1 {
+  font-size: 11px;
+  display: inline-block;
+  color: #fff;
+  padding: 0px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.ntop_left h2 {
+  font-size: 11px;
+  display: inline-block;
+  color: #fff;
+  padding: 0px 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.title-main-new-t {
+  margin-top: 70px;
+  margin-bottom: 70px !important;
+  padding: 0px 0px;
+  letter-spacing: 10px;
+}
+.title-main-new-t h2 {
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  margin: auto;
+  font-weight: 300;
+}
+.socialtitleh2 {
+  font-size: 22px !important;
+  letter-spacing: 4px !important;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center !important;
+  margin: auto;
+  font-weight: 300;
+}
+.footer_sub span.title {
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333;
+  padding-bottom: 10px;
+}
+.footer_sub span.titleSub {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #aeaeae;
+  padding-bottom: 10px;
+  display: block;
+}
+.footer_sub span.cNumber {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+  padding-bottom: 10px;
+  margin: 0.67em 0;
+  display: block;
+}
+footer .footer_col-5 h3 {
+  border-bottom: 1px solid #dfdfdf;
+  color: #858585;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  color: #333;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+.title-main h1 span {
+  font-size: 16px;
+  font-weight: 300 !important;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  margin: auto;
+  font-weight: 300;
+  padding-top: 20px;
+  display: block;
+  letter-spacing: 10px;
+}
+.leftSpanTitle {
+  text-align: left !important;
+}
+.variation h2 {
+  display: block;
+
+  background-color: #fff;
+
+  color: #000 !important;
+
+  /* text-align: center; */
+
+  text-transform: uppercase;
+
+  font-size: 22px !important;
+
+  font-weight: 200 !important;
+
+  padding: 14px 1px 8px 1px !important;
+  margin: 0.67em 0;
+
+  letter-spacing: 4px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .variation h2 {
+    padding: 14px 1px 8px 1px !important;
+    margin-bottom: 3px;
+    text-align: center !important;
+    width: 100%;
+  }
+  .leftSpanTitle {
+    text-align: left;
+    letter-spacing: 1px !important;
+    padding-bottom: 20px;
+  }
+  .title-main h1 span {
+    font-size: 14px;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    margin: auto;
+    font-weight: 300;
+    padding-top: 5px;
+    display: block;
+    text-align: center !important;
+    width: 70%;
+  }
+  div.footer_col-5 h3#watchLineup {
+    margin-top: 40px;
+  }
+  footer .footer_col-5 h3 {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    text-align: center !important;
+    display: block;
+    font-size: 18px !important;
+  }
+  .footer_sub span.cNumber {
+    text-align: center !important;
+    display: block;
+    font-size: 18px !important;
+    font-weight: 400;
+  }
+  .title-main-new-t {
+    margin-top: 25px;
+    margin-bottom: 25px !important;
+  }
+  .title-main-new-t h2 {
+    text-align: center !important;
+    display: block;
+    font-size: 18px !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    margin: auto;
+  }
+  .footer_sub span.title {
+    text-align: center !important;
+  }
+  .footer_sub span.titleSub {
+    text-align: center !important;
+  }
+}
+
+#consolPopup2 {
+  width: 70% !important;
+  margin: 0;
+  padding: 3% 2%;
+  text-align: center;
+  display: none;
+}
+#consolPopup2 h3 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+#consolPopup2 span {
+  text-align: center;
+  margin: 0;
+  padding: 10px 30px;
+  text-align: ;
+  center: ;
+  color: #fff;
+  margin-bottom: 10px;
+  background-color: black;
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 3px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+#consolPopup2 span a {
+  color: white;
+  text-decoration: none;
+  border: 0 !important;
+  outline: 0 !important;
+  font-size: 15px !important;
+}
+#consolPopup2 span a img {
+  margin-left: 10px !important;
+  display: inline-block;
+}
+#consolPopup2 h3 {
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 1%;
+}
+#consolPopup2 span {
+  cursor: pointer;
+}
+
+#consolPopup2 h3 {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+#consolPopup2 p {
+  padding: 10px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  letter-spacing: 0.51px;
+}
+.fancybox-skin {
+  padding: 0 !important;
+}
+#consolPopup2 a.countryselected {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}

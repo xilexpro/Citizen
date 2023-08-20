@@ -1,0 +1,852 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+#newMobSearch {
+
+  border-bottom: 1px solid #e2e5f1;
+
+  display: none;
+
+  background-color: rgba(247, 247, 250, 1);
+
+}
+
+#newMobSearchDisplayNone {
+
+  display: none;
+
+  transition: all 0.5s ease;
+
+}
+
+.newMobSearchDisplayYes {
+
+  display: block;
+
+}
+
+.newMobSearchIcon02 {
+
+  width: 25px;
+
+  float: left;
+
+  padding: 2px 0 0 20px;
+
+  position: relative;
+
+  z-index: 9999;
+
+}
+
+.newMobSearchArrow02 {
+
+  width: 25px;
+
+  float: right;
+
+  padding: 2px 7px 0px 0px;
+
+}
+
+.newMobSearchField02 {
+
+  width: calc(88% - 50px);
+
+}
+
+.newMobSearchField02 input[type="text"] {
+
+  width: calc(94% - 50px);
+
+  font-size: 12px;
+
+  padding: 5px 5px 4px 5px;
+
+  background-color: rgba(247, 247, 250, 0);
+
+  border: 0px;
+
+}
+
+.newMobSearchField02 input:focus {
+
+  outline: none;
+
+}
+
+.newMobSearchArrow02 button[type="submit"] {
+
+  background: none;
+
+  border: 0px;
+
+  padding: 0px;
+
+}
+
+
+
+.cd-top {
+
+  display: none;
+
+}
+
+.add_to_cart_bt .add-button:hover {
+
+  padding: 14px 24px;
+
+  background-color: #000;
+
+  color: #fff;
+
+  background: none;
+
+}
+
+#wrap {
+
+  display: none;
+
+  visibility: hidden;
+
+}
+
+
+.mobilefixedprice02 {
+
+  z-index: 999 !important;
+
+}
+
+.packaging .box {
+
+  padding-top: 12px;
+
+  display: inline-table;
+
+  width: auto !important;
+
+}
+
+
+
+.zoomimageproduct {
+
+  display: none;
+
+}
+
+.sharesocial {
+
+  display: none;
+
+}
+
+.list_detail_share {
+
+  display: block;
+
+}
+
+
+
+/* Larger than mobile */
+
+@media (max-width: 767px) {
+
+  button.fancybox-button.fancybox-button--arrow_right div svg {
+
+    opacity: 0 !important;
+
+  }
+
+
+
+  button.fancybox-button.fancybox-button--arrow_right div {
+
+    /* background-color: beige; */
+
+    background-image: url(../images/npRightArrow.png) !important;
+
+  }
+
+  button.fancybox-button.fancybox-button--arrow_left div svg {
+
+    opacity: 0 !important;
+
+  }
+
+
+
+  button.fancybox-button.fancybox-button--arrow_left div {
+
+    /* background-color: beige; */
+
+    background-image: url(../images/npLeftArrow.png) !important;
+
+  }
+
+
+
+  #newMobSearch {
+
+    display: none;
+
+  }
+
+  .left_list_pro {
+
+    display: none;
+
+  }
+
+  .message_label {
+
+    width: 80%;
+
+    margin-top: 40px;
+
+  }
+
+  .jqOutOfStock {
+
+    display: none !important;
+
+  }
+
+
+
+  #wrap {
+
+    background: url(../images/zoomimageproduct.png) no-repeat;
+
+    background-size: contain;
+
+    background-position: 0px 2px;
+
+    z-index: 9999;
+
+    height: 21px;
+
+    width: 24px;
+
+    float: right;
+
+    cursor: pointer;
+
+    top: 0px;
+
+    display: block;
+
+    visibility: visible;
+
+    position: relative;
+
+  }
+
+  #wrap img {
+
+    opacity: 0;
+
+  }
+
+
+
+  .wrapZoom {
+
+    background: url(../images/zoomimageproduct.png) no-repeat;
+
+    background-size: contain;
+
+    background-position: 0px 2px;
+
+    z-index: 9999;
+
+    height: 21px;
+
+    width: 24px;
+
+    float: right;
+
+    cursor: pointer;
+
+    top: 14px;
+
+    display: block;
+
+    visibility: visible;
+
+    position: relative;
+
+    margin-right: 10px;
+
+    display: none;
+
+    visibility: hidden;
+
+  }
+
+
+
+  #input {
+
+    width: 317px;
+
+  }
+
+  .filter_bt {
+
+    display: none;
+
+  }
+
+  #search_holder {
+
+    background: rgba(0, 0, 0, 0);
+
+    display: none;
+
+    visibility: hidden;
+
+    border-bottom: 1px solid #e5e5e5 !important;
+
+    border-left: 0px;
+
+    border-right: 0px;
+
+    border-top: 0px;
+
+  }
+
+  #label label {
+
+    background: url(../images/search20.png) -30px 0;
+
+  }
+
+  #label.active label {
+
+    background: url(../images/search20.png) 1px 0;
+
+  }
+
+  #label label:hover {
+
+    background: url(../images/search20.png) 1px 0;
+
+  }
+
+  #input.focus .submitButtonArrow {
+
+    left: 92%; /* float: right; */
+
+    position: fixed;
+
+    z-index: 9999;
+
+    top: 59px;
+
+  }
+
+  #input input {
+
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.1) !important;
+
+    left: -360px;
+
+  }
+
+  #input.focus {
+
+    z-index: 20;
+
+    background-color: rgba(0, 0, 0, 0);
+
+  }
+
+  .list_detail_share {
+
+    right: 11px;
+
+    top: 10px;
+
+    display: none;
+
+    z-index: 999999;
+
+  }
+
+  .outofstock {
+
+    font-size: 25px;
+
+    bottom: 0;
+
+    position: fixed;
+
+    right: 20px;
+
+    bottom: 53px;
+
+  }
+
+
+
+  .availability {
+
+    position: fixed;
+
+    bottom: 1px;
+
+    z-index: 88888;
+
+    right: 10px;
+
+    font-size: 11px !important;
+
+  }
+
+
+
+  .zoomimageproduct {
+
+    width: 21px;
+
+    float: none;
+
+    position: absolute;
+
+    right: 22px;
+
+    top: 18px;
+
+    display: block;
+
+    z-index: 99999;
+
+  }
+
+  .zoomimageproduct img {
+
+    width: 80%;
+
+    height: auto;
+
+  }
+
+  .fancybox-navigation .fancybox-button--arrow_left {
+
+    left: 0;
+
+    left: env(safe-area-inset-left);
+
+    padding: 33px 26px 33px 6px !important;
+
+  }
+
+  .fancybox-navigation .fancybox-button--arrow_right {
+
+    padding: 33px 6px 33px 26px !important;
+
+    right: 0;
+
+    right: env(safe-area-inset-right);
+
+  }
+
+
+
+  .sharesocial {
+
+    width: 16px;
+
+    float: none;
+
+    position: absolute;
+
+    right: 26px;
+
+    z-index: 9999;
+
+    top: 4px;
+
+    display: block;
+
+  }
+
+  .sharesocial img {
+
+    width: 100%;
+
+    height: auto;
+
+  }
+
+  .socialmedia_new {
+
+    display: none;
+
+  }
+
+  .more,
+
+  .less {
+
+    display: none;
+
+  }
+
+  .citizen_brands {
+
+    display: none;
+
+  }
+
+  .newsletter_bg {
+
+    display: none;
+
+  }
+
+
+
+  #mobilefixedprice {
+
+    position: fixed;
+
+    bottom: 68px;
+
+    background-color: #fff;
+
+    display: block;
+
+    width: 100%;
+
+    padding: 9% 7%;
+
+    z-index: 9999;
+
+    height: 45px;
+
+    left: 0;
+
+    border-top: 1px solid #e5e5e5;
+
+  }
+
+
+
+  .row_price_new {
+
+    margin: 0 0 10px 0 !important;
+
+    width: fit-content;
+
+    position: fixed;
+
+    z-index: 999;
+
+    bottom: 63px;
+
+    right: 0;
+
+  }
+
+  div#couponrow-2 {
+
+    border-bottom: 0px solid #ccc;
+
+    margin: 0px 0px;
+
+  }
+
+  .ccoupon_field {
+
+    width: 40%;
+
+  }
+
+
+
+  span.column_pr2_new {
+
+    text-align: right;
+
+    font-size: 20px;
+
+    font-weight: 600;
+
+    padding-bottom: 10px;
+
+    position: fixed;
+
+    z-index: 999;
+
+    /*bottom: 48px;*/
+
+    bottom: 67px;
+
+    right: 9px;
+
+  }
+
+  p.availability.mobilefixedprice02 {
+
+    position: fixed;
+
+    left: 10px;
+
+    text-align: left !important;
+
+    bottom: 80px;
+
+  }
+
+
+
+  span.t_strike {
+
+    position: fixed;
+
+    bottom: 150px;
+
+    z-index: 10000;
+
+    left: 10px;
+
+    font-size: 11px;
+
+  }
+
+  .red-text {
+
+    bottom: 99px;
+
+    z-index: 10000;
+
+    left: 69px;
+
+    font-size: 11px;
+
+    position: fixed;
+
+  }
+
+  div#discount_price {
+
+    bottom: 110px;
+
+    z-index: 10000;
+
+    left: 10px;
+
+    position: fixed;
+
+  }
+
+  span.vatinclusive {
+
+    bottom: 100px;
+
+    z-index: 10000;
+
+    left: 10px;
+
+    position: fixed;
+
+    font-size: 8px;
+
+  }
+
+  form#frmaddtocart {
+
+    bottom: 106px;
+
+    z-index: 10000;
+
+    right: 10px;
+
+    position: fixed;
+
+  }
+
+  .add_to_cart_bt .add-button {
+
+    padding: 8px 16px;
+
+    font-size: 16px;
+
+    letter-spacing: 0.1em;
+
+    background: #fff;
+
+    color: #000;
+
+    letter-spacing: 0px !important;
+
+  }
+
+
+
+  .add_to_cart_bt .add-button:hover {
+
+    padding: 8px 26px !important;
+
+    background: #000 !important;
+
+  }
+
+  .variation h1 {
+
+    margin-bottom: 3px;
+
+  }
+
+  .wrapper-fixed h1 {
+
+    font-size: 15px !important;
+
+  }
+
+  #discount_price .t_discount {
+
+    font-size: 24px;
+
+    font-weight: 600;
+
+  }
+
+  .youpayhide {
+
+    display: none;
+
+  }
+
+  .packaging {
+
+    padding: 0 0 0 0;
+
+  }
+
+  .packaging .box .boxtitle {
+
+    padding-top: 0;
+
+  }
+
+  .list_detail img {
+
+    width: 100% !important;
+
+  }
+
+  .variation ul li {
+width: 140px;
+
+  }
+
+  .mobile_product_top_margin {
+
+    margin-top: 20px;
+
+  }
+
+  .bx-wrapper .bx-controls-direction a {
+
+    z-index: 888;
+
+  }
+
+  .menu_icon_top_mobile {
+
+    z-index: 997;
+
+  }
+
+
+
+  #july_offer {
+
+    z-index: 9999;
+
+  }
+
+  .list_detail p {
+
+    padding-bottom: 5px;
+
+  }
+
+  ul.tabswd {
+
+    margin: 30px auto -8px auto !important;
+
+  }
+
+}
+
+
+
+/* Larger than mobile */
+
+@media (max-width: 480px) {
+
+  .socialmedia_new {
+
+    display: none;
+
+  }
+
+  .more,
+
+  .less {
+
+    display: none;
+
+  }
+
+  .citizen_brands {
+
+    display: none;
+
+  }
+
+  .newsletter_bg {
+
+    display: none;
+
+  }
+
+
+
+  .banner_mobile {
+
+    display: none !important;
+
+  }
+
+}
+
+
+
+@media (max-width: 320px) {
+
+  .add-button {
+
+    padding: 10px 14px !important;
+
+    font-size: 13px !important;
+
+    letter-spacing: 0px !important;
+
+  }
+
+}
+
