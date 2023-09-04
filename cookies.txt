@@ -1,7 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-uae.citizenshop.me	TRUE	/	FALSE	1999999999	ci_session	a75020fb8b33432d4a9cad48169c13413f80e7cf
-citizenshop.me	TRUE	/	FALSE	1999999999	ci_session	713a360f697849a031ceff82f0566da8bfcfec9c
-.tabby.ai	TRUE	/	FALSE	1999999999	_cfuvid	RzSK0Tnwlf42DF.nPeOucGxbgp46dvWcIWZwuGDkumk-1691147793667-0-604800000
-checkout.tabby.ai	TRUE	/	FALSE	1999999999	SameSite	None
-
